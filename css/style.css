@@ -37,6 +37,11 @@ ul{
     color: #2e7d32;
 }
 
+i.fa-bars,
+i.fa-xmark{
+    color: #2E7D32;
+}
+
 .menu-toggle{
     border: 0;
     background: none;
@@ -47,6 +52,23 @@ ul{
 
 .main-nav{
     display: none;
+}
+
+.main-nav.active{
+    display: flex;
+    flex-basis: 100%;
+}
+
+.main-nav.active ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 2rem;
+    margin-top: 1rem;
+}
+
+.main-nav.active a{
+    font-size: 0.8rem;
 }
 
 .nav-bar .container{
@@ -71,6 +93,11 @@ ul{
     border-bottom-color:#2e7d32;
 }
 
+@media screen and (max-width:767px){
+    .nav-bar .container{
+        flex-wrap: wrap;
+    }
+}
 
 @media (min-width: 768px){
     .container{
@@ -94,7 +121,7 @@ ul{
 /* MAIN */
 /* SECTION HERO */
 .hero{
-    padding: 1rem 0 2rem;
+    padding: 0 0 2rem 0;
 }
 
 .hero .container{
