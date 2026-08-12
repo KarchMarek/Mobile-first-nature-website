@@ -12,6 +12,7 @@ A responsive nature-themed website built with a Mobile First approach. This educ
 - **HTML5** – Semantic page structure and responsive image markup.
 - **CSS3** – Mobile First styling, CSS Grid, responsive layouts, typography, and media queries.
 - **Normalize.css** – Consistent default styling across browsers.
+- **JavaScript** – Added interactive mobile navigation with a hamburger menu toggle and dynamic icon switching.
 - **Font Awesome** – Icons used throughout the interface.
 - **Google Fonts** – Source Sans 3 typography.
 
@@ -25,7 +26,8 @@ A responsive nature-themed website built with a Mobile First approach. This educ
 - **Responsive Images** – Used the `<picture>` element with different image sources for mobile, tablet, and desktop screens.
 - **Image Optimization** – Prepared WebP images in multiple sizes to serve more appropriate image dimensions for different devices.
 - **Semantic HTML** – Structured the page using semantic elements such as `header`, `nav`, `main`, `section`, `article`, and `footer`.
-- **Responsive Navigation** – Created a mobile navigation state with a menu icon and a full navigation layout for larger screens.
+- **Responsive Navigation** – Created a mobile hamburger menu that expands across the full width when clicked and automatically switches between hamburger and close icons and a full navigation layout for larger screens.
+- **JavaScript DOM Manipulation** – Used JavaScript to toggle navigation states and dynamically switch Font Awesome icons.
 - **Forms** – Created a responsive newsletter subscription form.
 - **CSS Components** – Built reusable cards, buttons, content sections, and responsive layouts using CSS.
 
@@ -42,7 +44,8 @@ The project focuses on:
 - Creating responsive destination cards.
 - Serving different image sizes depending on the viewport width.
 - Practicing CSS Grid and responsive layouts.
-- Building a complete webpage using semantic HTML and CSS without JavaScript.
+- Building a structured webpage using semantic HTML and CSS.
+- Adding JavaScript to introduce interactive functionality, such as the mobile navigation menu.
 
 ---
 
@@ -69,13 +72,15 @@ For example:
 
 ## 📱 Responsive Breakpoints
 
-The layout uses three main stages:
+The layout uses three main responsive stages:
 
-- Mobile: up to 560px
-- Tablet: 561px – 1023px
-- Desktop: 1024px and above
+- **Mobile:** up to 560px
+- **Tablet:** 561px – 767px
+- **Desktop:** 768px and above
 
-The layout progressively changes from a compact mobile card layout to a three-column desktop grid.
+The destination cards change from a horizontal mobile layout to a three-column grid from 561px.
+
+The navigation remains collapsed behind a hamburger menu on mobile screens and becomes a full navigation bar from 768px upward.
 
 ---
 
