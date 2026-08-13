@@ -26,8 +26,10 @@ A responsive nature-themed website built with a Mobile First approach. This educ
 - **Responsive Images** – Used the `<picture>` element with different image sources for mobile, tablet, and desktop screens.
 - **Image Optimization** – Prepared WebP images in multiple sizes to serve more appropriate image dimensions for different devices.
 - **Semantic HTML** – Structured the page using semantic elements such as `header`, `nav`, `main`, `section`, `article`, and `footer`.
-- **Responsive Navigation** – Created a mobile hamburger menu that expands across the full width when clicked and automatically switches between hamburger and close icons and a full navigation layout for larger screens.
-- **JavaScript DOM Manipulation** – Used JavaScript to toggle navigation states and dynamically switch Font Awesome icons.
+- **Responsive Navigation** – Created a mobile hamburger menu that expands across the full width & switches between hamburger & close icons and a full navigation layout for larger screens.
+- **Smooth Scrolling** – Implemented smooth scrolling to the selected page section when a navigation link is clicked.
+- **Section Highlighting** – Added a temporary visual highlight to the selected section after navigation.
+- **JavaScript DOM Manipulation** – Used JavaScript to control navigation states, update CSS classes, and dynamically change the interface.
 - **Forms** – Created a responsive newsletter subscription form.
 - **CSS Components** – Built reusable cards, buttons, content sections, and responsive layouts using CSS.
 
@@ -45,7 +47,19 @@ The project focuses on:
 - Serving different image sizes depending on the viewport width.
 - Practicing CSS Grid and responsive layouts.
 - Building a structured webpage using semantic HTML and CSS.
-- Adding JavaScript to introduce interactive functionality, such as the mobile navigation menu.
+- Adding JavaScript to introduce interactive functionality, including mobile navigation, smooth scrolling, and section highlighting.
+
+---
+
+## ✨ JavaScript Features
+
+The project includes several interactive features implemented with vanilla JavaScript:
+
+- **Mobile Menu Toggle** – Opens and closes the mobile navigation.
+- **Dynamic Menu Icon** – Changes between the hamburger and close icons.
+- **Smooth Scrolling** – Navigation links smoothly scroll to the corresponding section.
+- **Section Highlighting** – The selected section is temporarily highlighted after navigation.
+- **Menu Reset** – The mobile navigation automatically closes after selecting a section.
 
 ---
 
