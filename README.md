@@ -1,7 +1,7 @@
 # 🌳 Mobile First Nature Website
-**(Responsive Website · Mobile First · CSS Grid · Responsive Images)**
+**(Responsive Website · Mobile First · CSS Grid · Responsive Images · JavaScript)**
 
-A responsive nature-themed website built with a Mobile First approach. This educational portfolio project was created to practice responsive layouts, CSS Grid, responsive images, and semantic HTML.
+A responsive nature-themed website built with a Mobile First approach. This educational portfolio project was created to practice responsive layouts, CSS Grid, responsive images, semantic HTML, and interactive JavaScript functionality.
 
 [🔗 **Live Preview**](https://karchmarek.github.io/Mobile-first-nature-website/)
 
@@ -12,7 +12,7 @@ A responsive nature-themed website built with a Mobile First approach. This educ
 - **HTML5** – Semantic page structure and responsive image markup.
 - **CSS3** – Mobile First styling, CSS Grid, responsive layouts, typography, and media queries.
 - **Normalize.css** – Consistent default styling across browsers.
-- **JavaScript** – Added interactive mobile navigation with a hamburger menu toggle and dynamic icon switching.
+- **JavaScript** – Added interactive functionality for mobile navigation and page section interactions.
 - **Font Awesome** – Icons used throughout the interface.
 - **Google Fonts** – Source Sans 3 typography.
 
